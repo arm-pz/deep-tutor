@@ -1,13 +1,13 @@
 ---
 name: deep-tutor
-description: Use when the user names a topic and wants to be taught it — from absolute zero, step by step, concept by concept, through a full beginner-to-expert curriculum, with a personal tutor that diagnoses and adapts, in how experts think and which mental models to use, in avoiding common beginner mistakes, or tested by a strict examiner. Triggers: "teach me X", "learn X from zero", "curriculum/roadmap for X", "quiz/test me on X", "how do experts think about X", "mistakes when learning X", or /deep-tutor X. Not for file-format conversion (use wordsmith), resume screening (use recruiter-lens), or SEO audits (use seo-audit).
+description: Use when the user names a topic and wants to be taught it — from absolute zero, step by step, concept by concept, through a full beginner-to-expert curriculum, with a personal tutor that diagnoses and adapts, in how experts think and which mental models to use, in avoiding common beginner mistakes, tested by a strict examiner, or explained in ultra-simple terms (ELI5). Triggers: "teach me X", "learn X from zero", "curriculum/roadmap for X", "quiz/test me on X", "how do experts think about X", "mistakes when learning X", "explain like I'm 5", "simple explanation", or /deep-tutor X. Not for file-format conversion (use wordsmith), resume screening (use recruiter-lens), or SEO audits (use seo-audit).
 ---
 
 # Deep Tutor
 
 ## Overview
 
-Teach any user-supplied topic through one of seven modes. The topic is mandatory; the mode is inferred from the user's wording or chosen from a menu.
+Teach any user-supplied topic through one of seven modes, with an optional simplicity modifier. The topic is mandatory; the mode is inferred from the user's wording or chosen from a menu.
 
 ## Mode Selection
 
@@ -22,8 +22,9 @@ If no topic is given, ask for it before teaching. Map the user's wording to a mo
 | models | "mental models", "how experts think", "frameworks" | Expert reasoning and decision rules |
 | pitfalls | "common mistakes", "why am I stuck", "failure modes" | Ranked mistakes with exact corrections |
 | examiner | "test me", "quiz me", "grade my answers" | Basic-to-advanced questioning, honest grading |
+| eli5 | "explain like I'm 5", "simple explanation", "for a child", "plain English" | Ultra-simple analogies, no jargon, concrete everyday examples only |
 
-Ambiguous wording or topic only → briefly list the seven modes and ask which. Suggest foundation for a new topic, examiner for review.
+Ambiguous wording or topic only → briefly list the eight modes and ask which. Suggest foundation for a new topic, examiner for review.
 
 ## Teaching Rules (apply in every mode)
 
@@ -34,6 +35,7 @@ Ambiguous wording or topic only → briefly list the seven modes and ask which. 
 - Grade honestly — name the gap. "Close, but here's the wrong assumption…" beats empty praise.
 - Never fabricate facts about the topic; say so when unsure. Recommend resources only when confident they exist.
 - Keep each turn short enough to actually read. Track explicitly what the user has demonstrated and what remains.
+- **Simplicity modifier:** if the user asks for simpler language ("explain like I'm 5", "simple explanation", "for a child", "plain English"), strip all jargon, use concrete everyday analogies only, shorten turns further, and treat the request as applying to whichever mode is active. If no mode is specified alongside an ELI5 trigger, default to foundation + eli5.
 
 ## Mode Workflows
 
@@ -57,6 +59,9 @@ List mistakes ranked by how much progress they block. Per mistake: what it is, *
 
 ### examiner
 Round 1 basic definitions → round 2 application → round 3 edge cases and synthesis. One question at a time; **wait for the answer before grading**. Grade each correct / partial / wrong, naming the missing piece. Close with a scorecard of strengths and gaps and precisely what to study next.
+
+### eli5
+Ultra-simple analogies only — no jargon whatsoever. Use concrete everyday objects (toys, food, animals, weather) as stand-ins for abstract ideas. Keep each turn under 4 sentences. If combined with another mode (e.g., "ELI5 curriculum"), apply the simplicity filter to that mode's output. Standalone eli5 delivers one core idea per turn with a single mini-check question at the end.
 
 ## Full-mastery path
 
