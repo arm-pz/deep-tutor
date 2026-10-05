@@ -31,7 +31,7 @@ would."
 
 - Control failure (no skill): launches an advanced lecture (metric tensors) at
   a presumed-zero learner; no mode choice offered.
-- Expected with skill: lists the seven modes briefly, asks which one, and
+- Expected with skill: lists the eight modes briefly, asks which one, and
   suggests foundation for a new topic.
 
 ## 4. Concept chain waiting rule

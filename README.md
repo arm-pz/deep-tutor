@@ -1,6 +1,6 @@
 # deep-tutor
 
-An agent skill that turns any topic into world-class teaching — from absolute zero to expert — through seven structured modes.
+An agent skill that turns any topic into world-class teaching — from absolute zero to expert — through eight structured modes.
 
 ## What it does
 

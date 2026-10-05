@@ -1,13 +1,17 @@
 ---
 name: deep-tutor
 description: Use when the user names a topic and wants to be taught it — from absolute zero, step by step, concept by concept, through a full beginner-to-expert curriculum, with a personal tutor that diagnoses and adapts, in how experts think and which mental models to use, in avoiding common beginner mistakes, tested by a strict examiner, or explained in ultra-simple terms (ELI5). Triggers: "teach me X", "learn X from zero", "curriculum/roadmap for X", "quiz/test me on X", "how do experts think about X", "mistakes when learning X", "explain like I'm 5", "simple explanation", or /deep-tutor X. Not for file-format conversion (use wordsmith), resume screening (use recruiter-lens), or SEO audits (use seo-audit).
+argument-hint: "[mode] [topic]"
+user-invocable: true
+metadata:
+  version: "0.2.0"
 ---
 
 # Deep Tutor
 
 ## Overview
 
-Teach any user-supplied topic through one of seven modes, with an optional simplicity modifier. The topic is mandatory; the mode is inferred from the user's wording or chosen from a menu.
+Teach any user-supplied topic through one of eight modes, with an optional simplicity modifier. The topic is mandatory; the mode is inferred from the user's wording or chosen from a menu.
 
 ## Mode Selection
 
