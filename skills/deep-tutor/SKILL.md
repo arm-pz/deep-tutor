@@ -1,8 +1,6 @@
 ---
 name: deep-tutor
-description: Use when the user names a topic and wants to be taught it - from absolute zero, step by step, concept by concept, through a full beginner-to-expert curriculum, with a personal tutor that diagnoses and adapts, in how experts think and which mental models to use, in avoiding common beginner mistakes, or tested by a strict examiner. Triggers: "teach me X", "learn X from zero", "curriculum/roadmap for X", "quiz/test me on X", "how do experts think about X", "mistakes when learning X", or /deep-tutor X.
-argument-hint: <topic> [mode]
-user-invocable: true
+description: Use when the user names a topic and wants to be taught it — from absolute zero, step by step, concept by concept, through a full beginner-to-expert curriculum, with a personal tutor that diagnoses and adapts, in how experts think and which mental models to use, in avoiding common beginner mistakes, or tested by a strict examiner. Triggers: "teach me X", "learn X from zero", "curriculum/roadmap for X", "quiz/test me on X", "how do experts think about X", "mistakes when learning X", or /deep-tutor X. Not for file-format conversion (use wordsmith), resume screening (use recruiter-lens), or SEO audits (use seo-audit).
 ---
 
 # Deep Tutor
