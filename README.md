@@ -13,6 +13,7 @@ An agent skill that turns any topic into world-class teaching — from absolute 
 | models | "how do experts think about X" | The mental models and decision rules professionals use |
 | pitfalls | "common mistakes learning X" | Mistakes ranked by damage, with exact corrections |
 | examiner | "quiz/test me on X" | Basic-to-advanced questions, honest grading, scorecard |
+| eli5 | "explain like I'm 5", "plain English" | Ultra-simple analogies from everyday objects, no jargon, one idea per turn |
 
 ## Core principle
 
