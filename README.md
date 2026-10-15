@@ -1,4 +1,4 @@
-# deep-tutor
+# topic-primer
 
 An agent skill that turns any topic into world-class teaching — from absolute zero to expert — through eight structured modes.
 
@@ -21,26 +21,26 @@ Real understanding, not the illusion of it. The skill asks **one question at a t
 
 ## Install
 
-Copy the `skills/deep-tutor/` directory into the skills directory supported by your AI agent:
+Copy the `skills/topic-primer/` directory into the skills directory supported by your AI agent:
 
 ```text
-.claude/skills/deep-tutor/
-.agents/skills/deep-tutor/
-.cursor/skills/deep-tutor/
-.qoder/skills/deep-tutor/
+.claude/skills/topic-primer/
+.agents/skills/topic-primer/
+.cursor/skills/topic-primer/
+.qoder/skills/topic-primer/
 ```
 
 Or install via the Skills CLI:
 
 ```bash
-npx skills add arm-pz/deep-tutor --skill deep-tutor
+npx skills add arm-pz/topic-primer --skill topic-primer
 ```
 
 ## Usage
 
 ```
-/deep-tutor black holes            # topic only → shows the mode menu
-/deep-tutor recursion foundation   # explicit mode
+/topic-primer black holes            # topic only → shows the mode menu
+/topic-primer recursion foundation   # explicit mode
 ```
 
 Or just ask naturally:

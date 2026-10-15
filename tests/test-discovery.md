@@ -7,7 +7,7 @@
 5. "How do experts think about game theory? What mental models and decision rules do they use?"
 6. "What are the most common mistakes people make when learning linear algebra, and how do I avoid them?"
 7. "Test my understanding of organic chemistry like a strict examiner. Grade honestly."
-8. "/deep-tutor black holes" (topic only, no mode specified)
+8. "/topic-primer black holes" (topic only, no mode specified)
 
 # Should NOT trigger (8 near-misses)
 

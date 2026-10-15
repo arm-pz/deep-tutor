@@ -1,10 +1,10 @@
 {
-  "name": "deep-tutor",
+  "name": "topic-primer",
   "version": "1.0.0",
   "description": "A world-class teacher for any topic, from zero background toward expert depth, in eight modes from foundations and curricula to strict exams and ELI5.",
   "author": {
     "name": "Abdul Rahman P Z"
   },
-  "homepage": "https://skills.caffeinity.com/deep-tutor/",
-  "repository": "https://github.com/arm-pz/deep-tutor"
+  "homepage": "https://skills.caffeinity.com/topic-primer/",
+  "repository": "https://github.com/arm-pz/topic-primer"
 }

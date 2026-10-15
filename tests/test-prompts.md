@@ -1,4 +1,4 @@
-# deep-tutor validation scenarios
+# topic-primer validation scenarios
 
 Each scenario was run as a control (agent without the skill) and with the skill
 loaded. The skill fixes the documented control failure.
@@ -27,7 +27,7 @@ would."
 
 ## 3. Ambiguous topic
 
-**Prompt:** "/deep-tutor black holes" (no mode given)
+**Prompt:** "/topic-primer black holes" (no mode given)
 
 - Control failure (no skill): launches an advanced lecture (metric tensors) at
   a presumed-zero learner; no mode choice offered.
